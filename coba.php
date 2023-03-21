@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="img/heart.png" rel="icon">
+    <title>For You</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+  </head>
+  <body background="img/bg.jpg">
+  <h2 class="text-center mt-5" style=" color: white; font-size: 80px; -webkit-text-stroke: 0.5px white;" ><label for="username">Hallo, Selamat Datang Ya </label><br>
+<h1 class="text-center"><button type="submit" class="btn btn-primary btn-lg" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Click Disini Yaaaa</button></h1>
+
+<!-- Modal Awal -->
+    <div>
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <h3 class="text-center" ><img src="img/1.gif" /><br>
+        Hallo Kamu</h3>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Selanjutnyaa</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <h3 class="text-center" ><img src="img/2.gif" height="200" width="200"/><br>
+        Yang semangat yaa... Jangan Depresi Mulu</h3>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Selanjutnyaa</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <h3 class="text-center" ><img src="img/3.gif" height="200" width="200"/><br>
+        Kita Pergi Bareng aja Biar Kamu Seneng Terus Yuk...</h3>
+      </div>
+      <div class="modal-footer">
+      <button class="btn btn-primary" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Selanjutnyaa</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <h3 class="text-center" ><img src="img/4.gif" height="200" width="200"/><br>
+        Sayang Kamu Cantikk...<br>I Love You</h3>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-dismiss="modal">See you</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Modal Akhir -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
